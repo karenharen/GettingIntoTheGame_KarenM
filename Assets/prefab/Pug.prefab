@@ -1263,6 +1263,8 @@ GameObject:
   - component: {fileID: 4118901437611577447}
   - component: {fileID: 4118901437242354183}
   - component: {fileID: -4368983376722373771}
+  - component: {fileID: 3617756508316462585}
+  - component: {fileID: 4076228954660237169}
   m_Layer: 0
   m_Name: Pug
   m_TagString: Untagged
@@ -1363,6 +1365,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d370ac434a921a4428b900be73393c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3617756508316462585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4118901437604052393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.105601475, y: 0.44170523, z: 0.21336035}
+  m_Center: {x: 0.005387704, y: -0.030638218, z: 0.030531785}
+--- !u!114 &4076228954660237169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4118901437604052393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8163ba04f109304f99900e3d590174d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4118901437604053189

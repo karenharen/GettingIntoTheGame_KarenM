@@ -17,8 +17,13 @@ public class destroyOutOfBounds : MonoBehaviour
         int upperOutOfBounds = 30;
         int lowerOutOfBounds = -6;
 
-        if (transform.position.z >= upperOutOfBounds || transform.position.z <= lowerOutOfBounds)
+        if (transform.position.z >= upperOutOfBounds)
         {
+            Destroy(gameObject);
+        }
+        else if(transform.position.z <= lowerOutOfBounds)
+        {
+            Debug.Log("Game Over");
             Destroy(gameObject);
         }
     }
